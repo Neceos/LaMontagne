@@ -7,13 +7,13 @@ $color2: rgb(20, 5, 5);
   //Fonts
 @font-face {
   font-family: "Inter";
-  src: url(/LaMontagne/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
-
 @font-face {
   font-family: "Merriweather";
-  src: url(/LaMontagne/assets/fonts/Merriweather/Merriweather-Regular.ttf);
+  src: url(/assets/fonts/Merriweather/Merriweather-Regular.ttf);
 }
+
 
 // Mixins
 @mixin centerChild {
@@ -21,7 +21,6 @@ $color2: rgb(20, 5, 5);
   justify-content: center;
   align-items: center;
 }
-
 @mixin columnChild {
   display: flex;
   align-items: center;
@@ -33,6 +32,8 @@ $color2: rgb(20, 5, 5);
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
   box-sizing: border-box;
-  background: url(/LaMontagne/assets/img/bg.jpg) fixed;
+  background: url(/assets/img/bg.jpg) fixed;
+  background-position: center;
 }
