@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/LaMontagne/assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(/LaMontagne/assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: url(/LaMontagne/assets/img/bg.jpg) fixed;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 150px 0;
+}
+.main h1 {
+  font-family: "Inter";
+  color: rgb(220, 220, 220);
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  max-width: 30%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
